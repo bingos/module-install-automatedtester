@@ -19,4 +19,5 @@ if ( $Config{make} and can_run( $Config{make} ) ) {
   print HAVEMAKE "meep\n";
   close HAVEMAKE;
 }
+readme_from 'lib/Module/Install/AutomatedTester.pm';
 WriteAll();
